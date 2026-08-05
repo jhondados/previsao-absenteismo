@@ -54,7 +54,7 @@ input,textarea{outline:none}
 <div id="root"></div>
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const CFG={"slug": "previsao-absenteismo", "titulo": "Previsão de Absenteísmo", "vertical": "RH", "descricao": "Previsão de absenteísmo com ML. Antecipa faltas e afastamentos por área, apoiando o planejamento de escala e a saúde ocupacional.", "ia": ["ML", "Time Series", "Classification"], "demo": "forecast", "fonte": "Ponto + afastamentos", "fonteUrl": "https://www.gov.br/trabalho", "kpis": [{"label": "Acurácia", "value": "88%", "delta": "+12%"}, {"label": "Absent.", "value": "-19%", "delta": "-19%"}, {"label": "Antecip.", "value": "semanal", "delta": ""}, {"label": "Escala", "value": "otimizada", "delta": ""}], "chartType": "line", "chartLabel": "Absenteísmo Projetado", "series": [51.1, 44.0, 45.8, 41.4, 39.4, 47.8, 49.9, 60.7, 62.9, 63.6, 69.9, 65.9, 67.8, 60.8, 54.0, 56.4, 53.1, 60.2, 61.4, 63.9, 74.6, 76.3, 84.0, 81.3], "features": ["Previsão de faltas por área", "Identificação de padrões", "Planejamento de escala", "Saúde ocupacional"], "color": "#06b6d4", "icon": "👥", "portfolioUrl": "https://jhondados.github.io/portfolio", "githubUser": "jhondados"};
 const {useState,useEffect,useRef,useMemo}=React;
